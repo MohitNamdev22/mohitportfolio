@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>Home | Mohit Namdev</title>
+</head>
+<body>
+    <header>
+        <img src="img/android-chrome-512x512.png" alt="" width="45px" heignt="30px" class="logo">
+        
+        <ul>
+            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+            <li><a href="index.html#second-about" style="text-decoration: none;">About</a></li>
+            <li><a href="index.html#third-portfolio" style="text-decoration: none; ">Portfolio</a></li>
+            <li><a href="index.html#fourth-contact" style="text-decoration: none; ">Contact</a></li>
+        </ul>
+    </header>
+    
+    <script type="text/javascript">
+    window.addEventListener("scroll",function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY > 0);
+    })
+        </script>
+
+        <div class="info" id="first-home">
+            <div class="mytext">
+                <h5>HELLO EVERYBODY, I AM</h5>
+                <h2>Mohit Namdev</h2>
+                <h6>Full Stack Web Developer</h6>
+            </div>
+        </div>
+        
+        <div class="logo-item">
+            <div id="logo">
+                <img src="\img\html.png" alt="HTML">
+            </div>
+            <div id="logo">
+                <img src="\img\css.png" alt="CSS">
+            </div>
+            <div id="logo">
+                <img src="\img\js.png" alt="JAVA SCRIPT">
+            </div>
+            <div id="logo">
+                <img src="\img\react.png" alt="REACT">
+            </div>
+            <div id="logo">
+                <img src="\img\python.png" alt="PYTHON">
+            </div>
+        </div>
+
+        <section class="aboutbox" id="second-about">
+            <div class="abouttext">
+                <h3>About Myself</h3>
+                <p>Hello everyone, I am Mohit Namdev pursuing Btech in Computer Science. I am passionate about exploring latest technologies. I am a Full Stack Developer, love solving problem using Python. I am always ready to meet and connect with new people and learn new things. I'm highly ambitious towards my goals. I like to pushing myself and taking up new challenges. </p>
+
+            </div>
+            <div class="project">
+                <h3>My Projects</h3>
+                <div class="picture">
+                    <div class="gamepy">
+                    <img src="\img\gamepy.png" alt="" class="pro" width="500px" height="500px">
+                    <h6 style="font-family:monospace; ">Game using Python Turtle Library</h6>
+                    </div>
+                    <div class="race">
+                        <img src="\img\race.jpeg" alt="" class="pro">
+                        <h6 style="font-family:monospace; ";>2D Racing Game on Unity</h6>
+
+                    </div>
+                    <div class="food24">
+                        <img src="\img\food24.jpg" alt="" class="pro">
+                        <h6 style="font-family:monospace; ";>Food Ordering Program using Python and Mysql in Backend</h6>
+
+                    </div>
+                    <div class="web">
+                        <img src="\img\web.jpg" alt="">
+                        <h6 style="font-family:monospace; ">And Some Web Devlopment Projects</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="third-portfolio">
+            <div>
+                <h2>Portfolio</h2>
+                <p>Portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="index.html" class="home-option">Home</a></p>
+            </div>
+
+        </section>
+
+        <section class="contact" id="fourth-contact">
+            <div class="contact-heading">
+                <h2>Contact Me</h2>
+                <p>Want to Connect with me ?</p>
+                <footer>
+                    <div class="social">
+                        <a class="mail" href="mailto:namdevmohit0@gmail.com" target="_blank">
+                            <i class="fa fa-google" aria-hidden="true" id="gog"></i>
+                        </a>
+                        <a class="link-linkedin" href="https://www.linkedin.com/in/mohit-namdev-5a875221b/" target="_blank">
+                            <i class="fa fa-linkedin-square" aria-hidden="true" id="gog"></i>
+                        </a>
+                        <a class="link-github" href="https://github.com/MohitNamdev22" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true" id="gog"></i>
+                        </a>
+                        <a class="link-instagram" href="https://www.instagram.com/mohit_namdev03/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true" id="gog"></i>
+                        </a>
+                        <div class="footend">
+                            <p>© 2021 Mohit Namdev All rights reserved</p>
+
+                        </div>
+        
+                    </div>
+                   
+                </footer>
+
+            </div>
+        </section>
+            
+            
+            
+
+
+        
+        
+</body>
+</html>

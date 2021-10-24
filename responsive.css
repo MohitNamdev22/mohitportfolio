@@ -1,0 +1,266 @@
+@media screen and (max-width : 1351px){
+    
+    .picture img{
+        height: 300px;
+        width: 300px;
+        
+    }
+
+    .picture h6{
+        font-size: 20px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width : 1200px){
+    
+        .picture img{
+            height: 250px;
+            width: 250px;
+            
+        }
+        .picture h6{
+            font-size: 18px;
+        }
+
+        
+
+}
+
+@media screen and (max-width : 1024px){
+    
+    .picture img{
+        height: 200px;
+        width: 200px;
+        
+    }
+    .picture h6{
+        font-size: 16px;
+    }
+
+    
+
+}
+
+@media screen and (max-width : 768px){
+    
+    .picture img{
+        height: 150px;
+        width: 150px;
+        
+    }
+    .picture h6{
+        font-size: 15px;
+    }
+    
+    
+    .abouttext p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header ul li {
+        position: relative;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 550;
+    }
+
+    .mytext h5{
+        font-weight: 550;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .mytext h2{
+        text-transform: uppercase;
+        color: #fce8b0;
+        font-weight:900;
+        font-size: 40px;
+        font-family: 'Baloo 2', cursive;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .mytext h6{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .contact-heading h2{
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .contact-heading p{
+        font-family:'Courier New';
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    
+
+
+    
+
+}
+
+@media screen and (max-width : 480px){
+    
+    .picture img{
+        height: 90px;
+        width: 90px;
+        
+    }
+    .picture h6{
+        font-size: 12px;
+    }
+    
+    
+    .abouttext p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    header ul li {
+        position: relative;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 550;
+    }
+
+    .mytext h5{
+        font-weight: 550;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .mytext h2{
+        text-transform: uppercase;
+        color: #fce8b0;
+        font-weight:900;
+        font-size: 40px;
+        font-family: 'Baloo 2', cursive;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .mytext h6{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .contact-heading h2{
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .contact-heading p{
+        font-family:'Courier New';
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    header{
+        padding: 20px;
+
+    }
+
+    header.sticky {
+    color: rgb(252, 246, 246);
+    padding: 20px ;
+    }
+
+    
+
+
+    
+
+}
+
+@media screen and (max-width : 360px){
+    
+    .picture img{
+        height: 70px;
+        width: 70px;
+        
+    }
+    .picture h6{
+        font-size: 8px;
+    }
+    
+    
+    .abouttext p{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    header ul li {
+        position: relative;
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: 550;
+    }
+
+    .mytext h5{
+        font-weight: 550;
+        font-size: 18px;
+        color: black;
+    }
+    
+    .mytext h2{
+        text-transform: uppercase;
+        color: #fce8b0;
+        font-weight:900;
+        font-size: 35px;
+        font-family: 'Baloo 2', cursive;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .mytext h6{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .contact-heading h2{
+        font-size: 22px;
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .contact-heading p{
+        font-family:'Courier New';
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    header{
+        padding: 5px;
+
+    }
+
+    header.sticky {
+    color: rgb(252, 246, 246);
+    padding: 5px ;
+    }
+
+    .logo-item{
+        margin-left: 50px;
+        margin-left: 0;
+    }
+
+    
+
+
+    
+
+}
