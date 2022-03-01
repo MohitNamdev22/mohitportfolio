@@ -284,3 +284,12 @@ header.sticky ul li a {
     color: #575757;
     
 }
+
+.form-container{
+    width: 500px; 
+    height: 500px; 
+    text-align: center; 
+    justify-content: center; 
+    margin-left: 500px;
+}
+
