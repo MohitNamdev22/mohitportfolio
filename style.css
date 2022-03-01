@@ -17,6 +17,7 @@ header{
     left: 0;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: centre;
     transition: 0.6s;
@@ -64,7 +65,7 @@ header ul li a {
     position: relative;
     margin: 0px 15px;
     text-decoration: none;
-    color: rgb(8, 7, 7);
+    color: rgb(3, 3, 3);
     letter-spacing: 2px;
     font-weight: 500px;
     transition: 0.6s;
@@ -74,6 +75,29 @@ header ul li a {
 header.sticky .logo,
 header.sticky ul li a {
     color: rgb(252, 246, 246);
+}
+
+.head-div{
+    width: 100%;
+    padding: 30px 30px;
+    background-color: black;
+    display: none;
+}
+
+.hamburger{
+    background-color: transparent;
+    border:0;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+
+}
+
+.hamburger:focus{
+    outline: none;
+
 }
 
 .info{
@@ -254,3 +278,9 @@ header.sticky ul li a {
     margin-top: 40px;
 }
 
+
+
+.hamburger.open{
+    color: #575757;
+    
+}
